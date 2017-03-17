@@ -1,5 +1,5 @@
 // Deliver the data through an exported object, making things simple and keeping the data out of the main classes
-const ProductData = {
+const TestData = {
     "title": "Buying an iPad Mini?",
     "content": [
         {
@@ -23,4 +23,4 @@ const ProductData = {
     ]
 }
 
-export default ProductData;
+export default TestData;

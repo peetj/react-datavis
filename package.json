@@ -1,7 +1,7 @@
 {
-  "name": "react-simple-starter",
+  "name": "react-datavis",
   "version": "0.1.0",
-  "description": "Simple starter for React JS",
+  "description": "Simple Data Visualisation starter for React JS",
   "scripts": {
     "start": "node dev-server.js",
     "start-verbose": "node dev-server.js --verbose",
@@ -41,7 +41,7 @@
     "babel-preset-stage-0": "^6.0.15",
     "css-loader": "^0.26.4",
     "eslint": "3.17.1",
-    "eslint-plugin-react": "6.10.0",
+    "eslint-plugin-react": "^6.10.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "node-sass": "^3.10.1",
