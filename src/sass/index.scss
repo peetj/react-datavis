@@ -1,14 +1,70 @@
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import "~bulma";
 
-/* fontawesome */
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
+html, body {
+    height: 100%;
+}
+
+html{
+    font-size: 110%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 90%;
+    }
 }
 
 body {
+    background: #EF6176;
     padding: 20px;
+    font-size: 16px;
+
+    & > div, & > div > .container {
+        height: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .hide {
     display: none;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 140%;
+    font-weight: bold;
+    color: #ffcccc;
+}
+
+.view {
+    display: flex;
+    flex: 1;
+
+    & .box {
+        margin: 6px 0;
+    }
+
+    & > div {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    & .view-infringement-body {
+        flex: 1;
+    }
+}
+
+
+.year-selector, .data-display-selector {
+    display: flex;
+    flex-direction:: row;
+
+    .button {
+        flex-grow: 1;
+        margin: 2px;
+    }
 }

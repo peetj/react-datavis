@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import MainPage from './MainPage';
 
-import '../../sass/index.scss';
+import '../sass/index.scss';
 
 // Save exporting the class later on!
 export default class App extends Component {
@@ -12,9 +13,7 @@ export default class App extends Component {
 
   render() {
     return (
-        <div>
-            <p>Hallo React-Datavis</p>
-        </div>
+        <MainPage title="Infringements on Sydney Trains"/>
     );
   }
 }
