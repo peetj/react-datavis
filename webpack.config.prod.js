@@ -4,15 +4,17 @@
 
   v0.1
 
-  This is currently a work in progress. The initial version is just a copy of
-  the equivalent 'dev' version. The list of tasks to productionise this file
-  should be listed below:
+  This is currently a work in progress.
+  The list of tasks to productionise this file should be listed below:
 
   1. Remove hot loading
   2. Add optimisations
     - Uglification
     - Minification
   3. Add hashing, cache busting
+
+  The output will be created inside of /dist
+  
  */
 
 const path = require('path');

@@ -1,7 +1,7 @@
 {
-  "name": "react-simple-starter",
+  "name": "react-datavis",
   "version": "0.1.0",
-  "description": "Simple starter for React JS",
+  "description": "Simple Data Visualisation starter for React JS",
   "scripts": {
     "start": "node dev-server.js",
     "start-verbose": "node dev-server.js --verbose",
@@ -41,7 +41,7 @@
     "babel-preset-stage-0": "^6.0.15",
     "css-loader": "^0.26.4",
     "eslint": "3.17.1",
-    "eslint-plugin-react": "6.10.0",
+    "eslint-plugin-react": "^6.10.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "node-sass": "^3.10.1",
@@ -56,7 +56,16 @@
   },
   "dependencies": {
     "babel-plugin-transform-object-assign": "^6.8.0",
+    "bulma": "^0.4.0",
+    "d3": "^3.5.17",
+    "d3-array": "^0.8.1",
+    "d3-scale": "^0.9.3",
+    "d3-shape": "^0.7.1",
+    "d3-time-format": "^2.0.3",
+    "format-number": "^2.0.2",
     "react": "^15.0.1",
-    "react-dom": "^15.0.1"
+    "react-dom": "^15.0.1",
+    "react-easy-chart": "^0.1.13",
+    "react-faux-dom": "^2.5.0"
   }
 }
