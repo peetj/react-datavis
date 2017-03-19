@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// Again, here in a refactor, let's think about the type of Class this should be - display only or smart?
 export default class YearSelector extends Component {
 
     constructor (props) {
@@ -10,7 +11,6 @@ export default class YearSelector extends Component {
     }
 
     labels () {
-
         return this.props.labels.map(label => {
             let isActive = label === this.props.activeYear ? "is-active" : "" ;
             let btnClass = `button is-primary ${isActive}`;

@@ -5,6 +5,7 @@ import App from './components/App';
 
 const rootEl = document.getElementById('root');
 
+// The point here is to take advantage of HMR - hot module reloading to save development time.
 ReactDOM.render(
   <AppContainer>
     <App />
